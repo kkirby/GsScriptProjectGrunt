@@ -7,8 +7,13 @@
 		"url": "https://github.com/kkirby/GsScriptProjectGrunt/issues"
 	},
 	"description": "Compiles GsScriptProjects.",
+	"dependencies": {
+		"GsScriptProject": "git://github.com/kkirby/GsScriptProject"
+	},
+	"peerDependencies": {
+		"grunt": "~0.4.5"
+	},
 	"devDependencies": {
-		"GsScriptProject": "git://github.com/kkirby/GsScriptProject",
 		"grunt": "~0.4.5"
 	},
 	"engines": {
@@ -25,9 +30,6 @@
 		}
 	],
 	"name": "GsScriptProjectGrunt",
-	"peerDependencies": {
-		"grunt": "~0.4.5"
-	},
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/kkirby/GsScriptProjectGrunt.git"
