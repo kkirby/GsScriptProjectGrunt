@@ -11,7 +11,7 @@
 var GSP = require('GsScriptProject');
 
 module.exports = function(grunt) {
-	grunt.registerMultiTask('GsScriptProject', 'Compile GsScriptProjects.', function() {
+	grunt.registerMultiTask('gsScriptProject', 'Compile GsScriptProjects.', function() {
 		// Merge task-specific and/or target-specific options with these defaults.
 		var options = this.options();
 		GSP.compile(options.config, false, this.async());
