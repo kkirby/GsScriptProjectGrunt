@@ -13,9 +13,14 @@ module.exports = function(grunt) {
 	// Project configuration.
 	grunt.initConfig({
 		// Configuration to be run (and then tested).
-		GsScriptProject: [{
+		gsScriptProject: [{
 			options: {
 				config: '/Users/kkirby/Projects/NowPik/v3/web/tablet/config.js'
+			}
+		},
+		{
+			options: {
+				config: '/Users/kkirby/Projects/NowPik/v3/web/camera/config.js'
 			}
 		}]
 
@@ -25,5 +30,5 @@ module.exports = function(grunt) {
 	grunt.loadTasks('tasks');
 
 	// These plugins provide necessary tasks.
-	grunt.registerTask('test', ['GsScriptProject']);
+	grunt.registerTask('test', ['gsScriptProject']);
 };
