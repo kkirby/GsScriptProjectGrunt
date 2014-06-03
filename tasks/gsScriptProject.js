@@ -13,7 +13,7 @@ var GSP = require('GsScriptProject');
 module.exports = function(grunt) {
 	grunt.registerMultiTask('gsScriptProject', 'Compile GsScriptProjects.', function() {
 		var args = this.args;
-		var watch = args.indexOf('watch');
+		var watch = args.indexOf('watch') != -1;
 		var async = this.async();
 		var options = this.options();
 		GSP.compile(options.config, watch, function(){
