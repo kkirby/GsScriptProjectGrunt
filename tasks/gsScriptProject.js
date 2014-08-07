@@ -16,7 +16,7 @@ module.exports = function(grunt) {
 		var watch = args.indexOf('watch') != -1;
 		var async = this.async();
 		var options = this.options();
-		GSP.compile(options.config, watch, function(){
+		GSP.compile(options.config, options.override, watch, function(){
 			if(!watch){
 				async();
 			}
