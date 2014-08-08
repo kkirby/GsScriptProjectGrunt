@@ -8,7 +8,7 @@
 	},
 	"description": "Compiles GsScriptProjects.",
 	"dependencies": {
-		"GsScriptProject": "git://github.com/kkirby/GsScriptProject#e7b9ad421fdc39134e8a74010e7ef1b21484568c"
+		"GsScriptProject": "git://github.com/kkirby/GsScriptProject#42e54207cc15184fa5bc19f5884c48fc65ad9909"
 	},
 	"peerDependencies": {
 		"grunt": "~0.4.5"
@@ -37,5 +37,5 @@
 	"scripts": {
 		"test": "grunt test"
 	},
-	"version": "1.0.11"
+	"version": "1.0.12"
 }
