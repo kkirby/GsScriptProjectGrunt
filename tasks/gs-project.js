@@ -8,10 +8,10 @@
 
 'use strict';
 
-var GSP = require('GsScriptProject');
+var GSP = require('gs-project');
 
 module.exports = function(grunt) {
-	grunt.registerMultiTask('gsScriptProject', 'Compile GsScriptProjects.', function() {
+	grunt.registerMultiTask('gs-project', 'Compile gs-projects.', function() {
 		var args = this.args;
 		var watch = args.indexOf('watch') != -1;
 		var async = this.async();
