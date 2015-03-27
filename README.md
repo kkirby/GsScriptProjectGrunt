@@ -1,2 +1,2 @@
-GsScriptProjectGrunt
-====================
+grunt-gs-project
+================

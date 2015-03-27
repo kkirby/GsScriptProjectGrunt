@@ -1,14 +1,11 @@
 {
 	"author": {
 		"email": "kylekirby@optimalconnection.net",
-		"name": "Kyle Kirby"
+		"name": "Kyle Kirbatski"
 	},
-	"bugs": {
-		"url": "https://github.com/kkirby/GsScriptProjectGrunt/issues"
-	},
-	"description": "Compiles GsScriptProjects.",
+	"description": "Compiles gs-projects.",
 	"dependencies": {
-		"GsScriptProject": "git://github.com/kkirby/GsScriptProject#a8bf51354d361e68392dfd42b841db0ac0bd82ff"
+		"gs-project": "*"
 	},
 	"peerDependencies": {
 		"grunt": "~0.4.5"
@@ -19,23 +16,10 @@
 	"engines": {
 		"node": ">= 0.8.0"
 	},
-	"homepage": "https://github.com/kkirby/GsScriptProjectGrunt",
-	"keywords": [
-		"gruntplugin"
-	],
-	"licenses": [
-		{
-			"type": "GNU",
-			"url": "https://github.com/kkirby/GsScriptProjectGrunt/blob/master/LICENSE"
-		}
-	],
-	"name": "grunt-gsScriptProject",
+	"name": "grunt-gs-project",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/kkirby/GsScriptProjectGrunt.git"
+		"url": "http://github.com/kkirby/grunt-gs-project"
 	},
-	"scripts": {
-		"test": "grunt test"
-	},
-	"version": "1.0.22"
+	"version": "1.1"
 }
