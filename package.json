@@ -4,11 +4,9 @@
     "name": "Kyle Kirbatski"
   },
   "description": "Compiles gs-projects.",
-  "dependencies": {
-    "gs-project": "*"
-  },
   "peerDependencies": {
-    "grunt": "~0.4.5"
+    "grunt": "~0.4.5",
+    "gs-project": "*"
   },
   "devDependencies": {
     "grunt": "~0.4.5"
